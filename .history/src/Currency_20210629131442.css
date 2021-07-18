@@ -1,0 +1,6 @@
+.currency_container {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 80px;
+}

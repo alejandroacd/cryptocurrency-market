@@ -1,0 +1,27 @@
+.currency_container {
+    display:flex;
+    justify-content: center
+    flex-direction: row;
+    justify-items: start;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.currency {
+    display:flex;
+    align-items: center;
+  
+}
+
+.currency img {
+    height: 30px;
+    width: 30px;
+}
+
+.currency_data {
+    display:flex;
+    flex-direction: row;
+}

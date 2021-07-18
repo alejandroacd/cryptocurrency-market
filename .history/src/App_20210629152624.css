@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  
+}
+
+.App {
+  text-align: center;
+  background-color: black;
+  color:white;
+  height: 100vw;
+}
+
+.input-container form input {
+  margin:3em;
+  border: 1px solid white;
+}

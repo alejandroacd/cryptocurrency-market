@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.currency_container {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    justify-items: start;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.currency {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+  
+}
+
+.currency img {
+    height: 30px;
+    width: 30px;
+}
+
+.currency_data {
+    display:flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.currency h1 {
+    font-size:1em;
+}
+
+.currency_price {
+    width: 110px;
+}
+
+.currency_volume {
+    width: 155px;
+}
+
+.currency_marketcap {
+    display:flex;
+    width: 230px;
+    font-weight: bold;
+}
+
+.currency_symbol {
+    width: 50px;
+}
+.crypto_name {
+    padding: 0.5em;
+    margin: 0 auto;
+    width: 30%;
+}
+.red {
+    color:#CD113B;
+}
+
+.green {
+    color:#66DE93;
+}
+
+@media only screen and (max-width: 600px) {
+    .currency_container {
+        width: 90%;
+    }
+
+    .currency_container .currency {
+        width: 50%;
+    }
+    .currency_data {
+        width: 50%;
+    }
+    .currency_data .currency_price  .currency_percent {
+        font-size: 0.7rem;
+        
+    }
+    .currency_data .currency_volume {
+        display: none;
+    }
+
+    .currency_marketcap {
+        display:none;
+    }
+    .crypto_name {
+        width: 70%;
+        
+    }
+  
+}
+

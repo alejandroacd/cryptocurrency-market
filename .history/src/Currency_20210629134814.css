@@ -1,0 +1,55 @@
+.currency_container {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    justify-items: start;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.currency {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+  
+}
+
+.currency img {
+    height: 30px;
+    width: 30px;
+}
+
+.currency_data {
+    display:flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.currency_price {
+    width: 110px;
+}
+
+.currency_volume {
+    width: 155px;
+}
+
+.currency_marketcap {
+    width: 230px;
+}
+
+
+
+.red {
+    color:#CD113B;
+}
+
+.green {
+    color:#66DE93;
+}

@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color:white;
+}
+
+.title_page {
+  margin-top:1em;
+}
+.App {
+  text-align: center;
+}
+
+.input-container form input {
+  margin:3em;
+  border: 1px solid white;
+}

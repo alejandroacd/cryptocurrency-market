@@ -1,0 +1,15 @@
+.currency_container {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 80px;
+    justify-items: start;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.currency {
+    
+}
